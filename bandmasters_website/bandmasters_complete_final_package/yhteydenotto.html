@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Yhteydenotto – Bandmasters</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Yhteydenotto</h1>
+        <nav>
+            <a href="index.html">Etusivu</a>
+            <a href="kalusto.html">Kalustomme</a>
+            <a href="hinnoittelu.html">Hinnoittelu</a>
+            <a href="yhteydenotto.html">Yhteydenotto</a>
+            <a href="yhteystiedot.html">Yhteystiedot</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Lähetä viesti</h2>
+            <form action="https://formspree.io/f/mvganolr" method="POST">
+                <label for="name">Nimi:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Sähköpostiosoite:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Viesti:</label><br>
+                <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+                <button type="submit">Lähetä</button>
+            </form>
+            <p><em>Voit myös lähettää sähköpostia suoraan osoitteeseen <strong>info@bandmasters.fi</strong>.</em></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Bandmasters</p>
+    </footer>
+</body>
+</html>
